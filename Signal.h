@@ -23,7 +23,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:
@@ -84,7 +84,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:
@@ -145,7 +145,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:
@@ -206,7 +206,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:
@@ -267,7 +267,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:
@@ -328,7 +328,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:
@@ -389,7 +389,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:
@@ -450,7 +450,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:
@@ -511,7 +511,7 @@ public:
 
 private:
 	typedef std::set<_Delegate> DelegateList;
-	typedef typename DelegateList::iterator DelegateIterator;
+	typedef typename DelegateList::const_iterator DelegateIterator;
 	DelegateList delegateList;
 
 public:

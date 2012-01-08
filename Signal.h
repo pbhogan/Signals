@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef _SIGNAL_H_
-#define _SIGNAL_H_
+#ifndef _Signal_H_
+#define _Signal_H_
 
 #include "Delegate.h"
 #include <set>

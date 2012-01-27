@@ -60,12 +60,12 @@ public:
 	{
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
-	
-	void Clear( )
-        {
-            delegateList.clear();
-        }
-        
+
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit() const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -127,6 +127,11 @@ public:
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
 
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit( Param1 p1 ) const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -134,10 +139,7 @@ public:
 			(*i)( p1 );
 		}
 	}
-	void Clear( )
-        {
-            delegateList.clear();
-        }
+
 	void operator() ( Param1 p1 ) const
 	{
 		Emit( p1 );
@@ -191,6 +193,11 @@ public:
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
 
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit( Param1 p1, Param2 p2 ) const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -198,12 +205,7 @@ public:
 			(*i)( p1, p2 );
 		}
 	}
-	
-	void Clear( )
-        {
-            delegateList.clear();
-        }
-        
+
 	void operator() ( Param1 p1, Param2 p2 ) const
 	{
 		Emit( p1, p2 );
@@ -257,6 +259,11 @@ public:
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
 
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit( Param1 p1, Param2 p2, Param3 p3 ) const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -269,11 +276,6 @@ public:
 	{
 		Emit( p1, p2, p3 );
 	}
-
-	void Clear( )
-        {
-            delegateList.clear();
-        }
 };
 
 
@@ -323,6 +325,11 @@ public:
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
 
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit( Param1 p1, Param2 p2, Param3 p3, Param4 p4 ) const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -335,10 +342,6 @@ public:
 	{
 		Emit( p1, p2, p3, p4 );
 	}
-	void Clear( )
-        {
-            delegateList.clear();
-        }
 };
 
 
@@ -388,6 +391,11 @@ public:
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
 
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit( Param1 p1, Param2 p2, Param3 p3, Param4 p4, Param5 p5 ) const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -400,10 +408,6 @@ public:
 	{
 		Emit( p1, p2, p3, p4, p5 );
 	}
-	void Clear( )
-        {
-            delegateList.clear();
-        }
 };
 
 
@@ -453,6 +457,11 @@ public:
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
 
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit( Param1 p1, Param2 p2, Param3 p3, Param4 p4, Param5 p5, Param6 p6 ) const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -465,10 +474,6 @@ public:
 	{
 		Emit( p1, p2, p3, p4, p5, p6 );
 	}
-	void Clear( )
-        {
-            delegateList.clear();
-        }
 };
 
 
@@ -518,6 +523,11 @@ public:
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
 
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit( Param1 p1, Param2 p2, Param3 p3, Param4 p4, Param5 p5, Param6 p6, Param7 p7 ) const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -530,10 +540,6 @@ public:
 	{
 		Emit( p1, p2, p3, p4, p5, p6, p7 );
 	}
-	void Clear( )
-        {
-            delegateList.clear();
-        }
 };
 
 
@@ -583,6 +589,11 @@ public:
 		delegateList.erase( MakeDelegate( obj, func ) );
 	}
 
+	void Clear()
+	{
+		delegateList.clear();
+	}
+
 	void Emit( Param1 p1, Param2 p2, Param3 p3, Param4 p4, Param5 p5, Param6 p6, Param7 p7, Param8 p8 ) const
 	{
 		for (DelegateIterator i = delegateList.begin(); i != delegateList.end(); ++i)
@@ -595,10 +606,6 @@ public:
 	{
 		Emit( p1, p2, p3, p4, p5, p6, p7, p8 );
 	}
-	void Clear( )
-        {
-            delegateList.clear();
-        }
 };
 
 

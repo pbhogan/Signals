@@ -78,6 +78,11 @@ public:
 	{
 		Emit();
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 
@@ -144,6 +149,11 @@ public:
 	{
 		Emit( p1 );
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 
@@ -210,6 +220,11 @@ public:
 	{
 		Emit( p1, p2 );
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 
@@ -276,6 +291,11 @@ public:
 	{
 		Emit( p1, p2, p3 );
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 
@@ -342,6 +362,11 @@ public:
 	{
 		Emit( p1, p2, p3, p4 );
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 
@@ -408,6 +433,11 @@ public:
 	{
 		Emit( p1, p2, p3, p4, p5 );
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 
@@ -474,6 +504,11 @@ public:
 	{
 		Emit( p1, p2, p3, p4, p5, p6 );
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 
@@ -540,6 +575,11 @@ public:
 	{
 		Emit( p1, p2, p3, p4, p5, p6, p7 );
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 
@@ -606,6 +646,11 @@ public:
 	{
 		Emit( p1, p2, p3, p4, p5, p6, p7, p8 );
 	}
+
+	bool Empty() const
+	{
+        return delegateList.empty();
+    }
 };
 
 

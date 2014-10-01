@@ -1,6 +1,5 @@
 /*
  *  Signal.h
- *  CoreGame
  *  A lightweight signals and slots implementation using fast delegates
  *
  *  Created by Patrick Hogan on 5/18/09.
